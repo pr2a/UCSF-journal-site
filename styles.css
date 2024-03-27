@@ -1,0 +1,116 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.login-button {
+    background-color: transparent;
+    color: grey;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.create-an-acc-button {
+    background-color: transparent;
+    color: grey;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.alr-acc-button {
+    background-color: grey
+    color:  grey;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.search-bar {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.warning-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.topics-box {
+    background-color: lavender;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 800px;
+    height: 250px;
+    margin: 20px auto 0;
+    padding:  20px;
+}
+
+.topics-box span {
+    padding: 5px; /* Add padding around each span within topics-box */
+}
+
+.all-articles-title {
+    text-align: left;
+}
+
+.subject-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-align-subject-titles {
+    text-align: left;
+}
+
+.center-align-subject-titles {
+    text-align: center;
+}
+
+.right-align-subject-titles {
+    text-align: right;
+}
+
+
