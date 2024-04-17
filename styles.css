@@ -29,10 +29,21 @@ body {
 }
 
 .alr-acc-button {
-    background-color: grey
+    background-color: grey;
     color:  grey;
     padding: 5px 10px;
     margin-bottom: 5px;
+}
+
+.subject-titles-button {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .container {
@@ -89,7 +100,7 @@ button {
 }
 
 .topics-box span {
-    padding: 5px; /* Add padding around each span within topics-box */
+    padding: 5px;
 }
 
 .all-articles-title {
@@ -102,7 +113,19 @@ button {
 }
 
 .left-align-subject-titles {
-    text-align: left;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .center-align-subject-titles {
@@ -111,6 +134,70 @@ button {
 
 .right-align-subject-titles {
     text-align: right;
+}
+
+/* article pages */
+
+.article-preview {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.title-and-date {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width:  100%;
+}
+
+.date-text {
+    color: grey;
+    margin: 0;
+    padding-right: 150px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.article-title {
+    color: grey;
+    margin: 0;
+    flex:  1;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.text-preview-container {
+  padding: 0 20px;
+  width: 90%;
+  padding-left: 150px;
+  box-sizing: border-box;
+  margin-right: auto;
+}
+
+.text-preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.article-link {
+  color: black;
+  margin: 5px 0;
+  text-align: left;
+  padding-left: 150px;
+}
+
+.date-text {
+    color: grey;
+    margin: 0;
+}
+
+.grey-line {
+    border: 1px solid grey;
+    margin-top: 20px;
 }
 
 
