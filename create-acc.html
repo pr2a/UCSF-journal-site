@@ -12,31 +12,35 @@
         <a href="homepage-logged-out.html" class="login-button">Home</a>
     </div>
     <div class="container">
-        <h1>Join "webpage title"</h1>
+        <h1>Join "Website Name"</h1>
         <h2>By signing up, you agree to our Terms and have read our Privacy Policy...</h2>
         <br>
-        <h1>What is your email?</h1>
-        <input type="email" placeholder="Enter your email address">
-        <h2>You’ll use this email address when you log in and if you ever need to reset your password. (this needs to be changed)</h2>
-        <a href="confirm-email.html" class="alr-acc-button">Submit</a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a href="login.html" class="alr-acc-button">Already have an account?</a>
+        <div style="background-color: #D9D9D9; padding: 20px; font-family: 'Inter', sans-serif;">
+            <h3 style="font-size: 16px;">Create an account</h3>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name"><br><br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" autocomplete="new-password">
+                <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="confirm-email">Confirm Email Address:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required><br><br>
+            </form>
+            <div style="margin-top: 20px;">
+                <p>Edit footer</p>
+            </div>
+            <a href="confirm-email.html">
+                <button type="submit" style="background-color: white;">Submit</button>
+            </a>
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="login.html" style="color: #9F9F9F; text-decoration: none;">Already have an account?</a>
+        </div>
     </div>
 </body>
 </html>
