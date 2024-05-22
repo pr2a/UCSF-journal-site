@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/login", "dest": "/login.html" },
+    { "src": "/create-account", "dest": "/create-acc.html" },
+    { "src": "/anesthesia", "dest": "/topic-pages/anesthesia-page.html" },
+  ],
+  "cleanUrls": true
+}

@@ -34,11 +34,7 @@
             <div style="margin-top: 20px; align: center">
                 <p>You’ll use this email address when you log in and if you ever need to reset your password. (this needs to be changed)</p>
             </div>
-            <a href="confirm-email.html">
-                <button type="submit" style="background-color: white;">Submit</button>
-            </a>
         </div>
-        
         <div style="margin-top: 20px; text-align: center;">
             <a href="login.html" style="color: #9F9F9F; text-decoration: none;">Already have an account?</a>
         </div>
@@ -49,27 +45,24 @@
 
 <script>
 function handleSubmit(event) {
-    event.preventDefault(); // Prevent the default form submission
+    event.preventDefault();
     const form = document.getElementById('signup-form');
     
     fetch(form.action, {
         method: 'POST',
         body: new FormData(form),
-        // Additional headers if needed
     })
-    .then(response => response.json()) // Parse the JSON response
+    .then(response => response.json())
     .then(data => {
         // Check if the submission was successful before redirecting
         if(data && data.result === "success") {
             window.location.href = 'confirm-email.html';
         } else {
-            // Handle the case where the script did not return success
             console.error('Submission failed', data);
         }
     })
     .catch(error => {
         console.error('Error:', error);
-        // Handle errors here, such as displaying a message to the user
     });
 }
 </script>
